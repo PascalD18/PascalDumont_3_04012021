@@ -1,0 +1,39 @@
+.header_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Shrikhand';
+  font-size: 2em;
+  height: 63px;
+  margin: 0px;
+  background-color: white;
+}
+
+.entete {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 63px;
+  margin: auto;
+
+  &_btn-ret {
+      position: absolute;
+      top: 20px;
+      left: 25px;
+      outline: none;
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+
+      &_i {
+          font-size: 20px;
+      }
+  }
+
+  &_logo {
+      font-family: 'Shrikhand';
+      font-size: 30px;
+      text-align: center;
+  }
+}
