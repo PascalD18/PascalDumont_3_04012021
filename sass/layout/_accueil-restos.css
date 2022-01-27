@@ -122,3 +122,26 @@
   color: transparent;
   cursor: pointer;
 }
+
+/*--------------------------------PARAMETRES SUIVANT ECRAN ------------------------------------------------------------*/
+@media screen and (min-width: 768px) {
+  /*----- TABLETTE -----------------------------------------------------------------*/
+  .restos_titre {
+    font-size: 2em;
+  }
+  .restos_grp_carte {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /*----- TABLETTE -----------------------------------------------------------------*/
+  .restos_titre {
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .restos_grp_carte {
+    width: 23%;
+  }
+}
