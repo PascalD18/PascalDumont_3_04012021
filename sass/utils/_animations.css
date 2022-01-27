@@ -115,3 +115,38 @@
     transform: rotate(360deg);
   }
 }
+
+@-webkit-keyframes app_prog {
+  0% {
+    opacity: 0;
+    transform: translateY(150%);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(100%);
+  }
+}
+
+@keyframes app_prog {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(100%);
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
