@@ -91,7 +91,7 @@
 .fonct-restos_fonct_titre {
   margin-left: 10px;
   margin-bottom: 20px;
-  margin-top: 50px;
+  margin-top: 90px;
 }
 
 .fonct-restos_fonct_grp {
@@ -109,7 +109,7 @@
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
   height: 76px;
-  width: 90%;
+  width: 48%;
   margin: 10px auto 10px auto;
   padding-right: 20px;
   -webkit-filter: drop-shadow(4px 4px 5px #e6e6e6);
@@ -201,6 +201,7 @@
   }
   .fonct-restos_fonct_titre {
     font-size: 2em;
+    text-align: center;
   }
   .fonct-restos_fonct_grp_lgn-fonct {
     justify-content: center;
