@@ -176,6 +176,117 @@ a:hover {
   animation: rotation-spin 3s linear infinite;
 }
 
+footer * {
+  font-weight: 200;
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 195px;
+  margin: 0px;
+  padding-bottom: 20px;
+  background-color: #353535;
+}
+
+footer .logo {
+  font-family: "Shrikhand";
+  padding-left: 20px;
+  margin: 20px 0px 5px 0px;
+}
+
+footer .listes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  font-family: roboto;
+}
+footer .listes_elem {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+footer .listes_elem_lien {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer .listes_elem_lien_lg {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+footer .listes_elem_lien_lg_i {
+  font-weight: 600;
+  margin: 5px 0px 5px 0px;
+}
+footer .listes_elem_lien_lg_nom-i {
+  margin: 5px 0px 5px 10px;
+}
+footer .listes_elem_lien_lg_nom {
+  margin: 5px 0px 5px 0px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*------------------------- FOOTER -> PARAMETRAGE SUIVANT ECRAN -------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*----------- MOBILE --------*/
+@media screen and (max-width: 767px) {
+  footer .logo {
+    font-size: 18px;
+  }
+
+  footer .listes_elem {
+    width: 100%;
+  }
+  footer .listes_elem_lien_lg_i {
+    font-size: 12px;
+  }
+  footer .listes_elem_nom-i, footer .listes_elem_nom {
+    font-size: 16px;
+  }
+}
+/*-----------TABLETTE--------*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  footer .logo {
+    font-size: 20px;
+  }
+
+  footer .listes_elem {
+    width: 45%;
+  }
+  footer .listes_elem_lien_lg_i {
+    font-size: 15px;
+  }
+  footer .listes_elem_lien_lg_nom-i, footer .listes_elem_lien_lg_nom {
+    font-size: 18px;
+  }
+}
+/*-----------DESKTOP--------*/
+@media screen and (min-width: 992px) {
+  footer .logo {
+    font-size: 22px;
+  }
+
+  footer .listes_elem {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+  }
+  footer .listes_elem_lien_lg_i {
+    font-size: 18px;
+  }
+  footer .listes_elem_lien_lg_nom-i, footer .listes_elem_lien_lg_nom {
+    font-size: 20px;
+  }
+}
 .reserv {
   height: -webkit-fit-content;
   height: -moz-fit-content;

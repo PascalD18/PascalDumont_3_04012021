@@ -13,20 +13,20 @@ footer {
   background-color: #353535;
 }
 
-.logo {
+footer .logo {
   font-family: 'Shrikhand';
   padding-left: 20px;
   margin: 20px 0px 5px 0px;
 }
 
-.listes {
+footer .listes {
   display: flex;
   flex-wrap: wrap;
   margin-left: 20px;
   font-family: roboto;
 }
 
-.listes_elem {
+footer .listes_elem {
   display: flex;
   flex-direction: column;
   padding: 0px;
@@ -34,14 +34,14 @@ footer {
   width: 100%;
 }
 
-.listes_elem_lien {
+footer .listes_elem_lien {
   display: flex;
   list-style-type: none;
   text-decoration: none;
   cursor: pointer;
 }
 
-.listes_elem_lien_lg {
+footer .listes_elem_lien_lg {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -49,16 +49,16 @@ footer {
   width: 100%;
 }
 
-.listes_elem_lien_lg_i {
+footer .listes_elem_lien_lg_i {
   font-weight: 600;
   margin: 5px 0px 5px 0px;
 }
 
-.listes_elem_lien_lg_nom-i {
+footer .listes_elem_lien_lg_nom-i {
   margin: 5px 0px 5px 10px;
 }
 
-.listes_elem_lien_lg_nom {
+footer .listes_elem_lien_lg_nom {
   margin: 5px 0px 5px 0px;
 }
 
@@ -67,50 +67,50 @@ footer {
 /*---------------------------------------------------------------------------------------------------------------------*/
 /*----------- MOBILE --------*/
 @media screen and (max-width: 767px) {
-  .logo {
+  footer .logo {
     font-size: 18px;
   }
-  .listes_elem {
+  footer .listes_elem {
     width: 100%;
   }
-  .listes_elem_lien_lg_i {
+  footer .listes_elem_lien_lg_i {
     font-size: 12px;
   }
-  .listes_elem_nom-i, .listes_elem_nom {
+  footer .listes_elem_nom-i, footer .listes_elem_nom {
     font-size: 16px;
   }
 }
 
 /*-----------TABLETTE--------*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .logo {
+  footer .logo {
     font-size: 20px;
   }
-  .listes_elem {
+  footer .listes_elem {
     width: 45%;
   }
-  .listes_elem_lien_lg_i {
+  footer .listes_elem_lien_lg_i {
     font-size: 15px;
   }
-  .listes_elem_lien_lg_nom-i, .listes_elem_lien_lg_nom {
+  footer .listes_elem_lien_lg_nom-i, footer .listes_elem_lien_lg_nom {
     font-size: 18px;
   }
 }
 
 /*-----------DESKTOP--------*/
 @media screen and (min-width: 992px) {
-  .logo {
+  footer .logo {
     font-size: 22px;
   }
-  .listes_elem {
+  footer .listes_elem {
     flex-direction: row;
     justify-content: space-around;
     width: 50%;
   }
-  .listes_elem_lien_lg_i {
+  footer .listes_elem_lien_lg_i {
     font-size: 18px;
   }
-  .listes_elem_lien_lg_nom-i, .listes_elem_lien_lg_nom {
+  footer .listes_elem_lien_lg_nom-i, footer .listes_elem_lien_lg_nom {
     font-size: 20px;
   }
 }
