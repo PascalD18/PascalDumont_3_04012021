@@ -33,7 +33,7 @@
         position: relative;
         border-radius: 250px;
         border: 6px solid rgba(255, 255, 255, 0.4);
-        background-color: #9356DC;
+        background-color: $colour-primary;
 
         &:after {
             content: "";
