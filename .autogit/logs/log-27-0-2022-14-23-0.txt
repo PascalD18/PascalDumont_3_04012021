@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jan 27 2022 14:23:00 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* public/css/style.css
+* public/css/style.css.map
+* sass/pages/_reserv-fonct.css
+* sass/pages/_reserv-fonct.min.css
+* sass/pages/_reserv-fonct.scss
+
+
+Created files:
+* .autogit/logs/log-27-0-2022-13-22-8.txt
+
+
+Deleted files:
+
+
+Renamed files:
