@@ -1,0 +1,125 @@
+.restos {
+    height: fit-content;
+    margin: auto;
+    margin-top: 60px;
+    padding-top: 25px;
+    background-color: #f6f6f6;
+
+    &_titre {
+        font-size: 1.5em;
+        font-weight: 600;
+        margin-left: 5%;
+    }
+
+    &_grp {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        padding-bottom: 45px;
+        background-color: #f6f6f6;
+
+        &_carte {
+            height: 255px;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 20px;
+            transition: 0.5s;
+
+            &:hover {
+                transform: scale(1.03);
+                -webkit-filter: drop-shadow(8px 8px 10px rgb(68, 67, 67)) opacity(80%);
+                filter: drop-shadow(8px 8px 10px rgb(68, 67, 67)) opacity(80%);
+            }
+
+            &_container {
+                position: relative;
+                height: 70%;
+                width: 100%;
+
+                &_nouveau {
+                    position: absolute;
+                    right: 20px;
+                    width: 85px;
+                    padding: 5px 10px 5px 10px;
+                    background-color: #99E2D0;
+                }
+
+                &_img {
+                    -o-object-fit: cover;
+                    object-fit: cover;
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            &_infos {
+                display: flex;
+                justify-content: space-between;
+                height: 80px;
+                border-bottom-right-radius: 20px;
+                border-bottom-left-radius: 20px;
+                background-color: white;
+
+                &_menu {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 15px 0px 15px 15px;
+                    height: 100%;
+
+                    &_nom {
+                        font-size: 1.1em;
+                        font-weight: 600;
+                        padding-bottom: 5px;
+                        margin: 0px;
+                    }
+
+                    &_ori {
+                        font-size: 1.1em;
+                        font-weight: 100;
+                        margin: 0px;
+                    }
+                }
+
+                &_container-coeurs {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 60px;
+                    padding-bottom: 15px;
+
+                    &_contour-coeur {
+                        position: absolute;
+                        font-size: 1.4em;
+                    }
+
+                    &_coeur-plein {
+                        position: absolute;
+                        font-size: 1.2em;
+                        top: 22px;
+                        color: white;
+                        z-index: 1;
+                        transition: 0.3s;
+
+                        &:hover {
+                            font-size: 1.5em;
+                            top: 20px;
+                            background: linear-gradient(100deg, rgb(235, 171, 224), rgb(240, 7, 18));
+                            background-clip: text;
+                            -webkit-background-clip: text;
+                            color: transparent;
+                            cursor: pointer;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

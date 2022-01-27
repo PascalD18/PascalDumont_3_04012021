@@ -1,3 +1,4 @@
+/*--- ACCUEIL ---*/
 .header_logo {
   display: flex;
   justify-content: center;
@@ -9,6 +10,7 @@
   background-color: white;
 }
 
+/*--- RESTOS ---*/
 .entete {
   position: relative;
   display: flex;

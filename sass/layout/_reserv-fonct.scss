@@ -1,0 +1,310 @@
+.reserv {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+
+
+    &_loc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        background-color: #eaeaea;
+
+
+        &_i {
+            width: 40px;
+            text-align: center;
+            background-color: transparent;
+        }
+    }
+
+    &_saisie-ville {
+        border: none;
+        width: 155px;
+        background-color: transparent;
+    }
+
+    &_entete {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 285px;
+        background-color: #fafafa;
+
+        &_titre1 {
+            font-size: 1.5em;
+            font-weight: 800;
+            text-align: center;
+            width: 65%;
+            padding-top: 35px;
+            margin: 0px;
+        }
+
+        &_titre2 {
+            font-size: 1.15em;
+            text-align: center;
+            width: 92%;
+            margin-bottom: 30px;
+        }
+
+        &_lien-restos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            width: 60%;
+            margin: 0px 0px 40px 0px;
+            background: linear-gradient(170deg, rgb(240, 150, 235), rgb(177, 43, 204));
+            -webkit-filter: drop-shadow(4px 4px 5px rgb(196, 190, 190));
+            filter: drop-shadow(4px 4px 5px rgb(196, 190, 190));
+
+            &:hover {
+                -webkit-filter: drop-shadow(8px 8px 10px rgb(68, 67, 67)) opacity(80%);
+                filter: drop-shadow(8px 8px 10px rgb(68, 67, 67)) opacity(80%);
+            }
+
+            &_btn-explorer {
+                font-size: 1em;
+                color: white;
+                text-align: center;
+            }
+
+        }
+    }
+
+}
+
+.fonct-restos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+    &_fonct {
+        width: 95%;
+
+        &_titre {
+            margin-left: 10px;
+            margin-bottom: 20px;
+            margin-top: 50px;
+        }
+
+        &_grp {
+            display: flex;
+            flex-direction: column;
+
+
+            &_lgn-fonct {
+                position: relative;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+                border-bottom-right-radius: 30px;
+                border-bottom-left-radius: 30px;
+                height: 76px;
+                width: 90%;
+                margin: 10px auto 10px auto;
+                padding-right: 20px;
+                -webkit-filter: drop-shadow(4px 4px 5px rgb(230, 230, 230));
+                filter: drop-shadow(4px 4px 5px rgb(230, 230, 230));
+                background-color: rgb(248, 248, 248);
+
+                &:hover {
+                    -webkit-filter: drop-shadow(8px 8px 10px rgb(68, 67, 67)) opacity(80%);
+                    filter: drop-shadow(8px 8px 10px rgb(68, 67, 67)) opacity(80%);
+                }
+
+                &_i-disque {
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 1.6em;
+                    left: -10px;
+                    color: #9356DC;
+                }
+
+                &_chiffre {
+                    position: absolute;
+                    font-size: 0.5em;
+                    font-weight: 400;
+                    color: white;
+                    left: 10px;
+                    top: 6px;
+                }
+
+                &_desi {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    padding-left: 25px;
+
+                    &_i-fonct01 {
+                        font-size: 1.5em;
+                        color: grey;
+                    }
+
+                    &_i-fonct01,
+                    &_i-fonct02,
+                    &_i-fonct03 {
+                        margin: 0px 24px 0px 10px;
+
+                    }
+
+                    &_i-fonct02 {
+                        font-size: 1.2em;
+                        color: grey;
+                    }
+
+                    &_i-fonct03 {
+                        color: #9356DC;
+                        ;
+                    }
+
+                    &_desi-fonct {
+                        margin: 10px 0px 10px 0px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+/*--------------------------------PARAMETRES SUIVANT ECRAN ------------------------------------------------------------*/
+@media screen and (min-width: 768px){/*----- TABLETTE -----------------------------------------------------------------*/
+    .reserv {
+        &_loc_i {
+            font-size: 1.5em;
+        }
+
+        &_saisie-ville {
+            font-size: 1.5em;
+        }
+
+        &_entete {
+            &_titre1 {
+                font-size: 1.8em;
+            }
+
+            &_titre2 {
+                font-size: 1.35em;
+            }
+
+            &_lien-restos_btn-explorer {
+                font-size: 1.5em;
+            }
+        }
+    }
+    .fonct-restos {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        &_fonct {
+            display: flex;
+            flex-direction: column;
+            width: 42%;
+            margin: auto;
+
+            &_grp {
+                &_lgn-fonct {
+                    justify-content: center;
+
+                    &_i-disque {
+                        left: -10px;
+                    }
+
+                    &_desi {
+                        &_i-fonct01 {
+                            padding-left: 10px;
+                        }
+
+                        &_i-fonct02,
+                        &_i-fonct03 {
+                            margin-left: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    }
+    @media screen and (min-width: 992px) {
+
+        /*----- DESKTOP -----------------------------------------------------------------*/
+        .reserv {
+            &_loc_i {
+                font-size: 1.8em;
+            }
+
+            &_saisie-ville {
+                font-size: 1.8em;
+                width: 204px;
+            }
+
+            &_entete {
+                &_titre1 {
+                    font-size: 2em;
+                }
+
+                &_titre2 {
+                    font-size: 1.8em;
+                }
+
+                &_lien-restos_btn-explorer {
+                    font-size: 2em;
+                }
+            }
+        }
+
+        .fonct-restos {
+
+            &_fonct {
+                width: 100%;
+
+                &_grp {
+
+                    &_lgn-fonct {
+                        /*justify-content: center;*/
+                        height: 85px;
+                        width: 28%;
+
+
+                        &_i-disque {
+                            left: -15px;
+                        }/*
+                        &_chiffre{
+                            left:10px;
+                        }*/
+
+                        &_desi {
+                            &_i-fonct01 {
+                                padding-left: 10px;
+                            }
+
+                            &_i-fonct02,
+                            &_i-fonct03 {
+                                margin-left: 0px;
+                            }
+                        }
+                    }
+
+                    &_titre {
+                        font-size: 2em;
+                        text-align: center;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+
+    }
