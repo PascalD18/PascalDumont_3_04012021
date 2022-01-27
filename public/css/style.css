@@ -1,3 +1,73 @@
+@-webkit-keyframes loader {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+@keyframes loader {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+@-webkit-keyframes grossissement {
+  0% {
+    color: #9356DC;
+  }
+  30% {
+    transform: scale(0.25, 4);
+  }
+  50% {
+    transform: scale(3, 0.25);
+  }
+  70% {
+    transform: scale(2, 4);
+  }
+  100% {
+    transform: scale(5);
+    color: #FF79DA;
+  }
+}
+@keyframes grossissement {
+  0% {
+    color: #9356DC;
+  }
+  30% {
+    transform: scale(0.25, 4);
+  }
+  50% {
+    transform: scale(3, 0.25);
+  }
+  70% {
+    transform: scale(2, 4);
+  }
+  100% {
+    transform: scale(5);
+    color: #FF79DA;
+  }
+}
+@-webkit-keyframes rotation-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotation-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 * {
   box-sizing: border-box;
   /* Largeur de la boite de contenu : width - (2 * padding) - (2 * border)
@@ -339,7 +409,7 @@ a:hover {
     margin-left: 0px;
   }
   .fonct-restos_fonct_grp_titre {
-    font-size: 2em;
+    font-size: 2.1em;
     text-align: center;
     margin-bottom: 15px;
   }
@@ -473,76 +543,6 @@ a:hover {
   }
   .restos_grp_carte {
     width: 23%;
-  }
-}
-@-webkit-keyframes loader {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    z-index: -10;
-  }
-}
-@keyframes loader {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    z-index: -10;
-  }
-}
-@-webkit-keyframes grossissement {
-  0% {
-    color: #9356DC;
-  }
-  30% {
-    transform: scale(0.25, 4);
-  }
-  50% {
-    transform: scale(3, 0.25);
-  }
-  70% {
-    transform: scale(2, 4);
-  }
-  100% {
-    transform: scale(5);
-    color: #FF79DA;
-  }
-}
-@keyframes grossissement {
-  0% {
-    color: #9356DC;
-  }
-  30% {
-    transform: scale(0.25, 4);
-  }
-  50% {
-    transform: scale(3, 0.25);
-  }
-  70% {
-    transform: scale(2, 4);
-  }
-  100% {
-    transform: scale(5);
-    color: #FF79DA;
-  }
-}
-@-webkit-keyframes rotation-spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes rotation-spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
   }
 }
 
