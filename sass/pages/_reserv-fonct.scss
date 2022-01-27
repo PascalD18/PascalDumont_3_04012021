@@ -212,7 +212,11 @@
             display: flex;
             flex-direction: column;
             width: 42%;
-            margin: auto;
+            margin-bottom: auto;
+            padding-top: 30px;
+            &_titre{
+                font-size: 2em;
+            }
 
             &_grp {
                 &_lgn-fonct {
@@ -270,21 +274,20 @@
 
             &_fonct {
                 width: 100%;
+                &_titre{
+                    text-align: center;
+                }
 
                 &_grp {
                     flex-direction: row;
                     &_lgn-fonct {
-                        /*justify-content: center;*/
                         height: 85px;
-                        width: 28%;
+                        width: 30%;
 
 
                         &_i-disque {
                             left: -15px;
-                        }/*
-                        &_chiffre{
-                            left:10px;
-                        }*/
+                        }
 
                         &_desi {
                             &_i-fonct01 {
