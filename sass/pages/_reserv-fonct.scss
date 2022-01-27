@@ -166,7 +166,7 @@
                     }
 
                     &_i-fonct03 {
-                        color: $color-primary;
+                        color: #9356DC;
                         ;
                     }
 
@@ -272,7 +272,7 @@
                 width: 100%;
 
                 &_grp {
-
+                    flex-direction: row;
                     &_lgn-fonct {
                         /*justify-content: center;*/
                         height: 85px;

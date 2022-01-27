@@ -128,23 +128,34 @@
   /*----- TABLETTE -----------------------------------------------------------------*/
   .restos {
     width: 58%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
   }
   .restos_titre {
     font-size: 2em;
   }
-  .restos_grp_carte {
+  .restos_grp {
+    border-bottom-left-radius: 50px;
+  }
+  .restos_grp__carte {
     width: 45%;
   }
 }
 
 @media screen and (min-width: 992px) {
-  /*----- TABLETTE -----------------------------------------------------------------*/
+  /*----- DESTKTOP-----------------------------------------------------------------*/
+  .restos {
+    width: 100%;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
   .restos_titre {
     margin-left: 0px;
     margin-top: 0px;
     text-align: center;
   }
   .restos_grp_carte {
+    border-bottom-left-radius: 0px;
     width: 23%;
   }
 }

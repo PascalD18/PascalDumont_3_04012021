@@ -95,7 +95,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "'Shrikhand'";
+  font-family: "Shrikhand";
   font-size: 2em;
   height: 63px;
   margin: 0px;
@@ -390,6 +390,9 @@ a:hover {
   .fonct-restos_fonct {
     width: 100%;
   }
+  .fonct-restos_fonct_grp {
+    flex-direction: row;
+  }
   .fonct-restos_fonct_grp_lgn-fonct {
     /*justify-content: center;*/
     height: 85px;
@@ -527,21 +530,35 @@ a:hover {
 /*--------------------------------PARAMETRES SUIVANT ECRAN ------------------------------------------------------------*/
 @media screen and (min-width: 768px) {
   /*----- TABLETTE -----------------------------------------------------------------*/
+  .restos {
+    width: 58%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
   .restos_titre {
     font-size: 2em;
   }
-  .restos_grp_carte {
+  .restos_grp {
+    border-bottom-left-radius: 50px;
+  }
+  .restos_grp__carte {
     width: 45%;
   }
 }
 @media screen and (min-width: 992px) {
-  /*----- TABLETTE -----------------------------------------------------------------*/
+  /*----- DESTKTOP-----------------------------------------------------------------*/
+  .restos {
+    width: 100%;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
   .restos_titre {
     margin-left: 0px;
     margin-top: 0px;
     text-align: center;
   }
   .restos_grp_carte {
+    border-bottom-left-radius: 0px;
     width: 23%;
   }
 }
