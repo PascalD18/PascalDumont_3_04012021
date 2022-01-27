@@ -1,0 +1,23 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jan 27 2022 16:54:37 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* public/css/style.css
+* public/css/style.css.map
+* sass/pages/_menu-cd.css
+* sass/pages/_menu-cd.min.css
+* sass/pages/_menu-cd.scss
+* sass/utils/_animations.css
+* sass/utils/_animations.min.css
+* sass/utils/_animations.scss
+
+
+Created files:
+* .autogit/logs/log-27-0-2022-16-24-18.txt
+
+
+Deleted files:
+
+
+Renamed files:
