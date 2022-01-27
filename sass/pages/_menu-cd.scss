@@ -1,3 +1,13 @@
+
+ .cont-img {
+    display: flex;
+    height: 265px;
+
+    &_image {
+        object-fit: cover;
+        width: 100%;
+    }
+}
 .menu {
     position: relative;
     top: -40px;
@@ -108,10 +118,10 @@
                 height: 65px;
                 min-width: 100%;
                 box-shadow: 6px 10px 20px #c7c2c2;
-                border-top-left-radius: $menu_serv_liste_elem_r;
-                border-top-right-radius: $menu_serv_liste_elem_r;
-                border-bottom-right-radius: $menu_serv_liste_elem_r;
-                border-bottom-left-radius: $menu_serv_liste_elem_r;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                border-bottom-left-radius: 10px;
                 margin: 8px 0px 8px 0px;
                 padding-right: 20px;
                 overflow: hidden;
@@ -234,4 +244,18 @@
 
         } 
     }
+}
+.menu_serv_liste_elem:hover .menu_serv_liste_elem_prix {
+    transform: translate(-60px);
+}
+
+.menu_serv_liste_elem:hover .menu_serv_liste_elem_select {
+    -webkit-animation: glissement-cochage 300ms linear 0ms forwards 1 normal;
+    animation: glissement-cochage 300ms linear 0ms forwards 1 normal;
+}
+
+.menu_serv_liste_elem:hover .menu_serv_liste_elem_select_coche {
+    -webkit-animation: rotation 300ms linear 0ms forwards 1 normal;
+    animation: rotation 300ms linear 0ms forwards 1 normal;
+
 }
