@@ -1,0 +1,237 @@
+.menu {
+    position: relative;
+    top: -40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 15px;
+    font-family: roboto;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    background-color: #f1f1f1;
+
+    &_titre {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 65px;
+        min-width: 100%;
+        margin-bottom: -5px;
+
+        &_nom-resto {
+            font-family: Shrikhand;
+            font-size: 29px;
+            padding-left: 10px;
+            margin: 35px auto 30px auto;
+            text-align: center;
+            width: 100%;
+
+        }
+
+        &_coeur {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            margin-right: 20px;
+
+
+            &_contour-coeur {
+                position: absolute;
+                font-size: 23px;
+            }
+
+            &_coeur-plein {
+                position: absolute;
+                font-size: 20px;
+                top: -10px;
+                color: transparent;
+
+                color: #f5f1f1;
+                z-index: 1;
+                transition: 0.3s;
+
+                &:hover {
+                    font-size: 25px;
+                    top: -13px;
+                    background: linear-gradient(100deg, rgb(235, 171, 224), rgb(240, 7, 18));
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    color: transparent;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    &_serv {
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        opacity: 0;
+        margin: 5px;
+
+
+        &_type {
+            position: relative;
+            margin-left: 10px;
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: 23px;
+                left: 0px;
+                height: 3px;
+                width: 45px;
+                background: #99E2D0;
+            }
+        }
+
+        &_liste {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+
+            &_elem {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                height: 65px;
+                min-width: 100%;
+                box-shadow: 6px 10px 20px #c7c2c2;
+                border-top-left-radius: $menu_serv_liste_elem_r;
+                border-top-right-radius: $menu_serv_liste_elem_r;
+                border-bottom-right-radius: $menu_serv_liste_elem_r;
+                border-bottom-left-radius: $menu_serv_liste_elem_r;
+                margin: 8px 0px 8px 0px;
+                padding-right: 20px;
+                overflow: hidden;
+                background-color: white;
+
+                &:hover {
+
+                    cursor: pointer;
+                }
+
+                &_descr {
+                    min-width: 100%;
+
+                    &_nom {
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        font-size: 18px;
+                        margin: 0px 0px 10px 10px;
+
+                    }
+
+                    &_info {
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        font-size: 15px;
+                        font-weight: 300;
+                        margin: 0px 0px 0px 10px;
+                    }
+                }
+
+                &_prix {
+                    font-size: 15px;
+                    margin-left: -25px;
+                    margin-right: -120px;
+                    padding-top: 25px;
+                    transition: all 600ms;
+
+                }
+
+                &_select {
+                    position: relative;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    width: 60px;
+                    right: -150px;
+                    background: #99E2D0;
+
+                    &_coche {
+                        font-size: 22px;
+                        -webkit-background-clip: text;
+                        background-clip: text;
+                        color: white;
+                        background-color: rgb(87, 165, 42);
+
+                    }
+
+                }
+            }
+        }
+    }
+
+    &_entrées {
+        -webkit-animation: app_prog 800ms linear 0ms forwards 1 normal;
+        animation: app_prog 800ms linear 0ms forwards 1 normal;
+    }
+
+    &_plats {
+        -webkit-animation: app_prog 800ms linear 800ms forwards 1 normal;
+        animation: app_prog 800ms linear 800ms forwards 1 normal;
+    }
+
+    &_desserts {
+        -webkit-animation: app_prog 800ms linear 1600ms forwards 1 normal;
+        animation: app_prog 800ms linear 1600ms forwards 1 normal;
+    }
+}
+
+.cd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #f1f1f1;
+    margin-top: -45px;
+
+    &_btn-cd {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        text-decoration: none;
+        color: white;
+        width: 190px;
+        margin: 40px 0px 40px 0px;
+        background: linear-gradient(170deg, rgb(240, 150, 235), rgb(177, 43, 204));
+        -webkit-filter: drop-shadow(4px 4px 5px rgb(196, 190, 190));
+        filter: drop-shadow(4px 4px 5px rgb(116, 113, 113));
+
+        &:hover {
+            background: linear-gradient(170deg, #ecbaea, #b663c7);
+            -webkit-filter: drop-shadow(8px 8px 10px rgb(68, 67, 67));
+            filter: drop-shadow(8px 8px 10px rgb(68, 67, 67));
+        }
+
+        &_lien {
+            font-family: roboto;
+            font-size: 16px;
+            cursor: pointer;
+
+
+
+        } 
+    }
+}
