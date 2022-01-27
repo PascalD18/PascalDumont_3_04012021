@@ -1,7 +1,7 @@
-@import "./utils/variables";
+@import "./utils/values";
+@import "./utils/animations";
 @import "./base/base";
 @import "./layout/headers";
 @import "./layout/loader-spinner";
-@import "./layout/reserv-fonct";
-@import "./layout/accueil-restos";
-@import "./utils/animations";
+@import "./pages/reserv-fonct";
+@import "./pages/accueil-restos";
