@@ -807,7 +807,6 @@ footer .listes_elem_lien_lg_nom {
   position: absolute;
   font-size: 20px;
   top: -10px;
-  color: transparent;
   color: #f5f1f1;
   z-index: 1;
   transition: 0.3s;
