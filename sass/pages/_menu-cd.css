@@ -133,7 +133,7 @@
   cursor: pointer;
 }
 
-.menu_serv_liste_elem:focus {
+.menu_serv_liste_elemcontrol {
   overflow: visible;
   background-color: red;
 }

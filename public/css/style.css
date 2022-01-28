@@ -868,7 +868,7 @@ footer .listes_elem_lien_lg_nom {
 .menu_serv_liste_elem:hover {
   cursor: pointer;
 }
-.menu_serv_liste_elem:focus {
+.menu_serv_liste_elemcontrol {
   overflow: visible;
   background-color: red;
 }
