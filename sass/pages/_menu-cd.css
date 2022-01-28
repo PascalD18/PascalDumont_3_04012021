@@ -138,14 +138,6 @@
   background-color: red;
 }
 
-.menu_serv_liste_elem:active + .menu_serv_liste_elem_prix {
-  margin-right: 0px;
-}
-
-.menu_serv_liste_elem:active + .menu_serv_liste_elem_select {
-  right: 0px;
-}
-
 .menu_serv_liste_elem_descr {
   min-width: 100%;
 }
