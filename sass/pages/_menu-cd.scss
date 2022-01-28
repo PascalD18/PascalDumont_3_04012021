@@ -133,7 +133,16 @@
 
                     cursor: pointer;
                 }
-
+                &:focus{
+                    overflow: visible;
+                    background-color: red;
+                }
+                &:active+.menu_serv_liste_elem_prix{
+margin-right: 0px;
+                }
+                &:active+.menu_serv_liste_elem_select{
+                    right: 0px;
+                                    }
                 &_descr {
                     min-width: 100%;
 

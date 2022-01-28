@@ -868,6 +868,16 @@ footer .listes_elem_lien_lg_nom {
 .menu_serv_liste_elem:hover {
   cursor: pointer;
 }
+.menu_serv_liste_elem:focus {
+  overflow: visible;
+  background-color: red;
+}
+.menu_serv_liste_elem:active + .menu_serv_liste_elem_prix {
+  margin-right: 0px;
+}
+.menu_serv_liste_elem:active + .menu_serv_liste_elem_select {
+  right: 0px;
+}
 .menu_serv_liste_elem_descr {
   min-width: 100%;
 }
