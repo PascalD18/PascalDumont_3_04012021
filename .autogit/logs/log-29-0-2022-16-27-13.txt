@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Sat Jan 29 2022 16:27:13 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* index.html
+* public/css/style.css
+* public/css/style.css.map
+* sass/layout/_loader-spinner.scss
+* sass/utils/_animations.css
+* sass/utils/_animations.min.css
+* sass/utils/_animations.scss
+
+
+Created files:
+* public/images/logo/bouche-o.png
+
+
+Deleted files:
+
+
+Renamed files:
