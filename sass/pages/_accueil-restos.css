@@ -19,7 +19,7 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding-bottom: 44px;
+  padding-bottom: 45px;
   background-color: #f6f6f6;
 }
 
@@ -66,6 +66,7 @@
   height: 80px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  color: black;
   background-color: white;
 }
 

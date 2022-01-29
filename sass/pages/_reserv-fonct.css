@@ -10,12 +10,14 @@
   align-items: center;
   height: 50px;
   background-color: #eaeaea;
+  border-top: groove;
 }
 
 .reserv_loc_i {
   width: 40px;
   text-align: center;
   background-color: transparent;
+  margin-left: 25px;
 }
 
 .reserv_saisie-ville {
@@ -29,7 +31,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 285px;
+  height: 290px;
   background-color: #fafafa;
 }
 
@@ -167,6 +169,7 @@
 
 .fonct-restos_fonct_grp_lgn-fonct_desi_desi-fonct {
   margin: 10px 0px 10px 0px;
+  color: black;
 }
 
 /*--------------------------------PARAMETRES SUIVANT ECRAN ------------------------------------------------------------*/

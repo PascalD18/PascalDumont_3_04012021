@@ -8,10 +8,12 @@
         align-items: center;
         height: 50px;
         background-color: #eaeaea;
+        border-top: groove;
         &_i {
             width: 40px;
             text-align: center;
             background-color: transparent;
+            margin-left: 25px;
         }
     }
     &_saisie-ville {
@@ -24,7 +26,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 285px;
+        height: 290px;
         background-color: #fafafa;
 
         &_titre1 {
@@ -160,6 +162,7 @@
 
                     &_desi-fonct {
                         margin: 10px 0px 10px 0px;
+                        color: black;
                     }
                 }
             }

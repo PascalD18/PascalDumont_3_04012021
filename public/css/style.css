@@ -134,6 +134,11 @@ a:hover {
   transform: scale(1.03);
 }
 
+input {
+  border: none;
+  background: transparent;
+}
+
 /*--- ACCUEIL ---*/
 .header_logo {
   display: flex;
@@ -369,11 +374,13 @@ footer .listes_elem_lien_lg_nom {
   align-items: center;
   height: 50px;
   background-color: #eaeaea;
+  border-top: groove;
 }
 .reserv_loc_i {
   width: 40px;
   text-align: center;
   background-color: transparent;
+  margin-left: 25px;
 }
 .reserv_saisie-ville {
   border: none;
@@ -385,7 +392,7 @@ footer .listes_elem_lien_lg_nom {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 285px;
+  height: 290px;
   background-color: #fafafa;
 }
 .reserv_entete_titre1 {
@@ -505,6 +512,7 @@ footer .listes_elem_lien_lg_nom {
 }
 .fonct-restos_fonct_grp_lgn-fonct_desi_desi-fonct {
   margin: 10px 0px 10px 0px;
+  color: black;
 }
 
 /*--------------------------------PARAMETRES SUIVANT ECRAN ------------------------------------------------------------*/
@@ -662,6 +670,7 @@ footer .listes_elem_lien_lg_nom {
   height: 80px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  color: black;
   background-color: white;
 }
 .restos_grp_carte_infos_menu {

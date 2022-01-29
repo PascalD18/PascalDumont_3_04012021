@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Sat Jan 29 2022 19:06:22 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* index.html
+* public/css/style.css
+* public/css/style.css.map
+* sass/layout/_headers.css
+* sass/layout/_headers.min.css
+* sass/layout/_headers.scss
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
