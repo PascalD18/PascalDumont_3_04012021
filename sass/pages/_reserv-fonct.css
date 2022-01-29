@@ -49,7 +49,7 @@
   margin-bottom: 30px;
 }
 
-.reserv_entete_lien-restos {
+.reserv_entete_btn-restos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,12 +65,12 @@
   filter: drop-shadow(4px 4px 5px #c4bebe);
 }
 
-.reserv_entete_lien-restos:hover {
+.reserv_entete_btn-restos:hover {
   -webkit-filter: drop-shadow(8px 8px 10px #444343) opacity(80%);
   filter: drop-shadow(8px 8px 10px #444343) opacity(80%);
 }
 
-.reserv_entete_lien-restos_btn-explorer {
+.reserv_entete_btn-restos_lab-explorer {
   font-size: 1em;
   color: white;
   text-align: center;
@@ -184,7 +184,7 @@
   .reserv_entete_titre2 {
     font-size: 1.35em;
   }
-  .reserv_entete_lien-restos_btn-explorer {
+  .reserv_entete_btn-restos_lab-explorer {
     font-size: 1.5em;
   }
   .fonct-restos {
@@ -232,7 +232,7 @@
   .reserv_entete_titre2 {
     font-size: 1.8em;
   }
-  .reserv_entete_lien-restos_btn-explorer {
+  .reserv_entete_btn-restos_lab-explorer {
     font-size: 2em;
   }
   .fonct-restos_fonct {

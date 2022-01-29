@@ -2,29 +2,23 @@
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-
-
     &_loc {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 50px;
         background-color: #eaeaea;
-
-
         &_i {
             width: 40px;
             text-align: center;
             background-color: transparent;
         }
     }
-
     &_saisie-ville {
         border: none;
         width: 155px;
         background-color: transparent;
     }
-
     &_entete {
         display: flex;
         flex-direction: column;
@@ -48,8 +42,7 @@
             width: 92%;
             margin-bottom: 30px;
         }
-
-        &_lien-restos {
+        &_btn-restos {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -68,16 +61,13 @@
                 -webkit-filter: drop-shadow(8px 8px 10px rgb(68, 67, 67)) opacity(80%);
                 filter: drop-shadow(8px 8px 10px rgb(68, 67, 67)) opacity(80%);
             }
-
-            &_btn-explorer {
+            &_lab-explorer {
                 font-size: 1em;
                 color: white;
                 text-align: center;
             }
-
         }
     }
-
 }
 
 .fonct-restos {
@@ -197,7 +187,7 @@
                 font-size: 1.35em;
             }
 
-            &_lien-restos_btn-explorer {
+            &_btn-restos_lab-explorer {
                 font-size: 1.5em;
             }
         }
@@ -265,7 +255,7 @@
                     font-size: 1.8em;
                 }
 
-                &_lien-restos_btn-explorer {
+                &_btn-restos_lab-explorer {
                     font-size: 2em;
                 }
             }

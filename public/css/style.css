@@ -154,7 +154,6 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
   border: none;
   cursor: pointer;
 }
@@ -403,7 +402,7 @@ footer .listes_elem_lien_lg_nom {
   width: 92%;
   margin-bottom: 30px;
 }
-.reserv_entete_lien-restos {
+.reserv_entete_btn-restos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -418,11 +417,11 @@ footer .listes_elem_lien_lg_nom {
   -webkit-filter: drop-shadow(4px 4px 5px #c4bebe);
   filter: drop-shadow(4px 4px 5px #c4bebe);
 }
-.reserv_entete_lien-restos:hover {
+.reserv_entete_btn-restos:hover {
   -webkit-filter: drop-shadow(8px 8px 10px #444343) opacity(80%);
   filter: drop-shadow(8px 8px 10px #444343) opacity(80%);
 }
-.reserv_entete_lien-restos_btn-explorer {
+.reserv_entete_btn-restos_lab-explorer {
   font-size: 1em;
   color: white;
   text-align: center;
@@ -523,7 +522,7 @@ footer .listes_elem_lien_lg_nom {
   .reserv_entete_titre2 {
     font-size: 1.35em;
   }
-  .reserv_entete_lien-restos_btn-explorer {
+  .reserv_entete_btn-restos_lab-explorer {
     font-size: 1.5em;
   }
 
@@ -571,7 +570,7 @@ footer .listes_elem_lien_lg_nom {
   .reserv_entete_titre2 {
     font-size: 1.8em;
   }
-  .reserv_entete_lien-restos_btn-explorer {
+  .reserv_entete_btn-restos_lab-explorer {
     font-size: 2em;
   }
 
@@ -800,7 +799,6 @@ footer .listes_elem_lien_lg_nom {
   margin-right: 20px;
 }
 .menu_titre_coeur_contour-coeur {
-  position: absolute;
   font-size: 23px;
 }
 .menu_titre_coeur_coeur-plein {
