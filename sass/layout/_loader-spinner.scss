@@ -10,8 +10,8 @@
     width: 100%;
     z-index: 2;
     color: red;
-    background: rgba(132, 165, 226, 0.5);/*
-    animation: loader 0ms ease-in-out 3000ms forwards;*/
+    background: rgba(132, 165, 226, 0.5);
+    animation: loader 0ms ease-in-out 3000ms forwards;
 
     &_spinner {
         height: 350px;
@@ -40,7 +40,7 @@
     }
     &_bouche-o {
         position: absolute;
-        top:250px;
+        top:260px;
         height: 200px;
         width: 200px;
         -webkit-animation: diction 3s cubic-bezier(.29,.49,.89,.32);
@@ -49,8 +49,8 @@
     }
     &_syllabe1{
         position: absolute;
-        top:300px;
-        right:46%;
+        top:330px;
+        right:48%;
         text-align: center;
         opacity: 0;
         -webkit-animation: grossissement-syllabe 600ms linear 250ms ;
@@ -58,8 +58,8 @@
     }
     &_syllabe2{
         position: absolute;
-        top:300px;
-        right:44%;
+        top:330px;
+        right:48%;
         text-align: center;
         opacity: 0;
         -webkit-animation: grossissement-syllabe 800ms linear 600ms ;
@@ -67,8 +67,8 @@
     }
     &_syllabe3{
         position: absolute;
-        top:300px;
-        right:42%;
+        top:330px;
+        right:47%;
         text-align: center;
         opacity: 0;
         -webkit-animation: grossissement-syllabe 1600ms linear 1400ms ;
