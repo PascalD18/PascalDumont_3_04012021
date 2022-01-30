@@ -191,7 +191,8 @@ input {
   z-index: 2;
   color: red;
   background: rgba(132, 165, 226, 0.5);
-  animation: loader 0ms ease-in-out 3000ms forwards;
+  /*
+  animation: loader 0ms ease-in-out 3000ms forwards;*/
 }
 .loader_spinner {
   height: 350px;
@@ -813,14 +814,14 @@ footer .listes_elem_lien_lg_nom {
 .menu_titre_coeur_coeur-plein {
   position: absolute;
   font-size: 20px;
-  top: -10px;
+  top: 2px;
   color: #f5f1f1;
   z-index: 1;
   transition: 0.3s;
 }
 .menu_titre_coeur_coeur-plein:hover {
   font-size: 25px;
-  top: -13px;
+  top: -1px;
   background: linear-gradient(100deg, #ebabe0, #f00712);
   background-clip: text;
   -webkit-background-clip: text;
