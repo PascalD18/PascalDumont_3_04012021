@@ -190,7 +190,7 @@ input {
   z-index: 2;
   color: red;
   background: rgba(132, 165, 226, 0.5);
-  /*animation: loader 0ms 3000ms forwards;*/
+  animation: loader 0ms 3000ms forwards;
 }
 .loader_spinner {
   height: 350px;
@@ -213,9 +213,8 @@ input {
   border-radius: 275px;
   border: 10px solid transparent;
   border-top-color: #0be0ab;
-  /*
   -webkit-animation: rotation-spin 3s linear infinite;
-  animation: rotation-spin 3s linear infinite;*/
+  animation: rotation-spin 3s linear infinite;
 }
 .loader_bouche-o {
   position: absolute;
