@@ -20,7 +20,7 @@
         position: relative;
         border-radius: 275px;
         border: 6px solid rgba(148, 86, 221, 0.4); /* idem #9356dc semi-opaque*/
-        background-color: #9356dc;
+        background-color: $color-primary;
 
         &:after {
             content: "";
