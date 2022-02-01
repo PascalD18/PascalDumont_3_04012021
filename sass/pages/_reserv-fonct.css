@@ -111,7 +111,7 @@
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
   height: 76px;
-  width: 96%;
+  width: 92%;
   padding-right: 45px;
   margin: 10px auto 10px 15px;
   -webkit-filter: drop-shadow(4px 4px 5px #e6e6e6);
@@ -150,12 +150,12 @@
 }
 
 .fonct-restos_fonct_grp_lgn-fonct_desi_i-fonct01 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: grey;
 }
 
 .fonct-restos_fonct_grp_lgn-fonct_desi_i-fonct01, .fonct-restos_fonct_grp_lgn-fonct_desi_i-fonct02, .fonct-restos_fonct_grp_lgn-fonct_desi_i-fonct03 {
-  margin: 0px 24px 0px 10px;
+  margin: 0px 24px 0px 0px;
 }
 
 .fonct-restos_fonct_grp_lgn-fonct_desi_i-fonct02 {
