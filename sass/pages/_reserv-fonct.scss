@@ -2,6 +2,7 @@
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+
     &_loc {
         display: flex;
         justify-content: center;
@@ -9,6 +10,7 @@
         height: 50px;
         background-color: #eaeaea;
         border-top: groove;
+
         &_i {
             width: 40px;
             text-align: center;
@@ -16,11 +18,13 @@
             margin-left: 25px;
         }
     }
+
     &_saisie-ville {
         border: none;
         width: 155px;
         background-color: transparent;
     }
+
     &_entete {
         display: flex;
         flex-direction: column;
@@ -44,6 +48,7 @@
             width: 92%;
             margin-bottom: 30px;
         }
+
         &_btn-restos {
             display: flex;
             justify-content: center;
@@ -63,6 +68,7 @@
                 -webkit-filter: drop-shadow(8px 8px 10px rgb(68, 67, 67)) opacity(80%);
                 filter: drop-shadow(8px 8px 10px rgb(68, 67, 67)) opacity(80%);
             }
+
             &_lab-explorer {
                 font-size: 1em;
                 color: white;
@@ -85,7 +91,7 @@
         &_titre {
             margin-left: 10px;
             margin-bottom: 20px;
-            margin-top: 90px;
+            margin-top: 50px;
         }
 
         &_grp {
@@ -96,15 +102,16 @@
             &_lgn-fonct {
                 position: relative;
                 display: flex;
-                justify-content: flex-start;
+                justify-content: center;
                 align-items: center;
                 border-top-left-radius: 30px;
                 border-top-right-radius: 30px;
                 border-bottom-right-radius: 30px;
                 border-bottom-left-radius: 30px;
                 height: 76px;
-                width: 305px;
-                margin: 10px auto 10px 15px;             
+                width: 96%;
+                padding-right: 45px;
+                margin: 10px auto 10px 15px;
                 -webkit-filter: drop-shadow(4px 4px 5px rgb(230, 230, 230));
                 filter: drop-shadow(4px 4px 5px rgb(230, 230, 230));
                 background-color: rgb(248, 248, 248);
@@ -137,7 +144,7 @@
                     display: flex;
                     flex-wrap: wrap;
                     align-items: center;
-                    padding-left: 25px;
+
                     &_i-fonct01 {
                         font-size: 1.5em;
                         color: grey;
@@ -170,8 +177,11 @@
         }
     }
 }
+
 /*--------------------------------PARAMETRES SUIVANT ECRAN ------------------------------------------------------------*/
-@media screen and (min-width: 768px){/*----- TABLETTE -----------------------------------------------------------------*/
+@media screen and (min-width: 768px) {
+
+    /*----- TABLETTE -----------------------------------------------------------------*/
     .reserv {
         &_loc_i {
             font-size: 1.5em;
@@ -195,6 +205,7 @@
             }
         }
     }
+
     .fonct-restos {
         flex-direction: row;
         flex-wrap: wrap;
@@ -205,16 +216,18 @@
             width: 42%;
             margin-bottom: auto;
             padding-top: 30px;
-            &_titre{
+
+            &_titre {
                 font-size: 2em;
                 text-align: center;
+                margin-top: 85px;
             }
 
             &_grp {
                 &_lgn-fonct {
                     justify-content: center;
                     width: 90%;
-                    
+
 
                     &_i-disque {
                         left: -10px;
@@ -235,73 +248,77 @@
         }
     }
 
-    }
-    @media screen and (min-width: 992px) {
+}
 
-        /*----- DESKTOP -----------------------------------------------------------------*/
-        .reserv {
-            &_loc_i {
-                font-size: 1.8em;
-            }
+@media screen and (min-width: 992px) {
 
-            &_saisie-ville {
-                font-size: 1.8em;
-                width: 204px;
-            }
-
-            &_entete {
-                &_titre1 {
-                    font-size: 2em;
-                }
-
-                &_titre2 {
-                    font-size: 1.8em;
-                }
-
-                &_btn-restos_lab-explorer {
-                    font-size: 2em;
-                }
-            }
+    /*----- DESKTOP -----------------------------------------------------------------*/
+    .reserv {
+        &_loc_i {
+            font-size: 1.8em;
         }
 
-        .fonct-restos {
+        &_saisie-ville {
+            font-size: 1.8em;
+            width: 204px;
+        }
 
-            &_fonct {
-                width: 100%;
-                &_titre{
+        &_entete {
+            &_titre1 {
+                font-size: 2em;
+            }
+
+            &_titre2 {
+                font-size: 1.8em;
+            }
+
+            &_btn-restos_lab-explorer {
+                font-size: 2em;
+            }
+        }
+    }
+
+    .fonct-restos {
+
+        &_fonct {
+            width: 100%;
+
+            &_titre {
+                text-align: center;
+                margin-top: 25px;
+            }
+
+            &_grp {
+                flex-direction: row;
+
+                &_lgn-fonct {
+                    height: 85px;
+                    width: 30%;
+
+
+                    &_i-disque {
+                        left: -15px;
+                    }
+
+                    &_desi {
+                        &_i-fonct01 {
+                            padding-left: 10px;
+                        }
+
+                        &_i-fonct02,
+                        &_i-fonct03 {
+                            margin-left: 0px;
+                        }
+                    }
+                }
+
+                &_titre {
+                    font-size: 2.1em;
                     text-align: center;
-                }
-
-                &_grp {
-                    flex-direction: row;
-                    &_lgn-fonct {
-                        height: 85px;
-                        width: 30%;
-
-
-                        &_i-disque {
-                            left: -15px;
-                        }
-
-                        &_desi {
-                            &_i-fonct01 {
-                                padding-left: 10px;
-                            }
-
-                            &_i-fonct02,
-                            &_i-fonct03 {
-                                margin-left: 0px;
-                            }
-                        }
-                    }
-
-                    &_titre {
-                        font-size: 2.1em;
-                        text-align: center;
-                        margin-bottom: 15px;
-                    }
+                    margin-bottom: 15px;
                 }
             }
         }
-
     }
+
+}

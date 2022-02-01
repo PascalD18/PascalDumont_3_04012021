@@ -93,7 +93,7 @@
 .fonct-restos_fonct_titre {
   margin-left: 10px;
   margin-bottom: 20px;
-  margin-top: 90px;
+  margin-top: 50px;
 }
 
 .fonct-restos_fonct_grp {
@@ -104,14 +104,15 @@
 .fonct-restos_fonct_grp_lgn-fonct {
   position: relative;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
   height: 76px;
-  width: 305px;
+  width: 96%;
+  padding-right: 45px;
   margin: 10px auto 10px 15px;
   -webkit-filter: drop-shadow(4px 4px 5px #e6e6e6);
   filter: drop-shadow(4px 4px 5px #e6e6e6);
@@ -146,7 +147,6 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-left: 25px;
 }
 
 .fonct-restos_fonct_grp_lgn-fonct_desi_i-fonct01 {
@@ -204,6 +204,7 @@
   .fonct-restos_fonct_titre {
     font-size: 2em;
     text-align: center;
+    margin-top: 85px;
   }
   .fonct-restos_fonct_grp_lgn-fonct {
     justify-content: center;
@@ -243,6 +244,7 @@
   }
   .fonct-restos_fonct_titre {
     text-align: center;
+    margin-top: 25px;
   }
   .fonct-restos_fonct_grp {
     flex-direction: row;
