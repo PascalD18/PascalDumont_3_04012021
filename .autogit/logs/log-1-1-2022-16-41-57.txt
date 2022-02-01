@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Tue Feb 01 2022 16:41:57 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* public/css/style.css
+* public/css/style.css.map
+* sass/layout/_loader-spinner.scss
+* sass/utils/_variables.scss
+
+
+Created files:
+* sass/utils/_variables.css
+
+
+Deleted files:
+
+
+Renamed files:
