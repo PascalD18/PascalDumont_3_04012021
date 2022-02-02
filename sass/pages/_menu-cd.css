@@ -257,19 +257,11 @@
   animation: rotation 300ms linear 0ms forwards 1 normal;
 }
 
-.plat-st,
-.plat-sd,
-.plat-mt,
-.plat-md {
-  display: none;
-}
-
 /* --- PARAMETRAGE SUIVANT ECRANS --- */
 /*-----------TABLETTE--------*/
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) {
   .menu_serv {
     width: 47%;
-    margin: auto;
   }
   .menu_serv_liste_elem_descr {
     width: 60%;
@@ -278,20 +270,12 @@
   .menu_serv_liste_elem:hover .menu_serv_liste_elem_descr {
     padding-right: 30%;
   }
-  .plat-mt {
-    display: initial;
-    visibility: hidden;
-  }
-  .plat-st {
-    display: none;
-  }
 }
 
 /*-----------DESKTOP--------*/
 @media screen and (min-width: 992px) {
   .menu_serv {
     width: 32%;
-    margin: auto;
   }
   .menu_serv_liste_elem_descr {
     width: 20%;
@@ -299,12 +283,5 @@
   }
   .menu_serv_liste_elem:hover .menu_serv_liste_elem_descr {
     padding-right: 37%;
-  }
-  .plat-md {
-    display: initial;
-    visibility: hidden;
-  }
-  .plat-sd {
-    display: none;
   }
 }
