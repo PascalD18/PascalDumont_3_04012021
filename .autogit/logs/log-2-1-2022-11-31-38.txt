@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Wed Feb 02 2022 11:31:38 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* public/css/style.css
+* public/css/style.css.map
+* sass/base/_base.css
+* sass/main.scss
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
+* [object Object]
+* [object Object]
+* [object Object]
