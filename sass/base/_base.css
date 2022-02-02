@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   /* Largeur de la boite de contenu : width - (2 * padding) - (2 * border)
-       Hauteur de la boite de contenu : height - (2 * padding) - (2 * border) */
+       Hauteur de la boite de contenu  : height - (2 * padding) - (2 * border) */
   font-family: 'Roboto', sans-serif;
 }
 
