@@ -1,19 +1,19 @@
 {
-  "name": "pascaldumont_3_04012021_v2",
+  "name": "pascaldumont_3_04012022",
   "version": "1.0.0",
-  "description": "pascaldumont_3_04012021 en sass",
+  "description": "pascaldumont_3_04012022 en sass",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PascalD18/PascalDumont_3_04012021_v2.git"
+    "url": "git+https://github.com/PascalD18/PascalDumont_3_04012022.git"
   },
   "author": "P Dumont",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PascalD18/PascalDumont_3_04012021_v2/issues"
+    "url": "https://github.com/PascalD18/PascalDumont_3_04012022/issues"
   },
-  "homepage": "https://github.com/PascalD18/PascalDumont_3_04012021_v2#readme"
+  "homepage": "https://github.com/PascalD18/PascalDumont_3_04012022#readme"
 }
