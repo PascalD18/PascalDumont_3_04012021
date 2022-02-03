@@ -159,20 +159,20 @@
 .menu_serv_liste_elem_prix {
   position: relative;
   font-size: 15px;
-  right: 25px;
+  margin-right: -120px;
   padding-top: 25px;
+  right: 20px;
   transition: all 600ms;
 }
 
 .menu_serv_liste_elem_select {
   position: relative;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 60px;
-  right: -150px;
+  right: -125px;
   background: #99E2D0;
 }
 
