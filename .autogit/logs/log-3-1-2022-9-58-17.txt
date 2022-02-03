@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Thu Feb 03 2022 09:58:17 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* .vscode/launch.json
+* public/css/style.css.map
+* sass/pages/_accueil-restos.scss
+
+
+Created files:
+* .autogit/logs/log-3-1-2022-9-15-42.txt
+* sass/main.css
+* sass/main.css.map
+
+
+Deleted files:
+
+
+Renamed files:
