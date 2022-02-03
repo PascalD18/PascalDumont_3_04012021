@@ -9,14 +9,14 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Simulation Google Chrome",
-            "url": "${workspaceFolder}/resto1.html"
+            "url": "${workspaceFolder}/index.html"
             
            },
         {
             "type": "firefox",
             "request": "launch",
             "name": "Simulation Firefox",
-            "url": "${workspaceFolder}/resto1.html"
+            "url": "${workspaceFolder}/index.html"
         }
     ]
 }
