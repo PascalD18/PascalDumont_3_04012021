@@ -211,8 +211,6 @@
         flex-wrap: wrap;
 
         &_fonct {
-            display: flex;
-            flex-direction: column;
             width: 42%;
             margin-bottom: auto;
             padding-top: 30px;
@@ -227,7 +225,6 @@
                 &_lgn-fonct {
                     justify-content: center;
                     width: 90%;
-
 
                     &_i-disque {
                         left: -10px;

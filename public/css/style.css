@@ -465,8 +465,6 @@ footer .listes_elem_lien_lg_nom {
     flex-wrap: wrap;
   }
   .fonct-restos_fonct {
-    display: flex;
-    flex-direction: column;
     width: 42%;
     margin-bottom: auto;
     padding-top: 30px;
@@ -660,10 +658,7 @@ footer .listes_elem_lien_lg_nom {
   .restos_titre {
     font-size: 2em;
   }
-  .restos_grp {
-    border-bottom-left-radius: 50px;
-  }
-  .restos_grp__carte {
+  .restos_grp_carte {
     width: 45%;
   }
 }
@@ -672,7 +667,6 @@ footer .listes_elem_lien_lg_nom {
   .restos {
     width: 100%;
     border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
   }
   .restos_titre {
     margin-left: 0px;

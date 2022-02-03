@@ -139,13 +139,10 @@
             font-size: 2em;
         }
 
-        &_grp {
-            border-bottom-left-radius: 50px;
-
-            &__carte {
+        &_grp_carte {
                 width: 45%;
 
-            }
+            
         }
     }
 }
@@ -155,7 +152,6 @@
     .restos {
         width: 100%;
         border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
         &_titre {
             margin-left: 0px;
             margin-top: 0px;

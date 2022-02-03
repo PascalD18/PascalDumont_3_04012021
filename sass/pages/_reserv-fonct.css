@@ -195,8 +195,6 @@
     flex-wrap: wrap;
   }
   .fonct-restos_fonct {
-    display: flex;
-    flex-direction: column;
     width: 42%;
     margin-bottom: auto;
     padding-top: 30px;
