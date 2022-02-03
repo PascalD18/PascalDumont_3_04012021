@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Thu Feb 03 2022 23:29:18 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* public/css/style.css
+* public/css/style.css.map
+* sass/pages/_accueil-restos.css
+* sass/pages/_accueil-restos.min.css
+* sass/pages/_accueil-restos.scss
+* sass/pages/_reserv-fonct.css
+* sass/pages/_reserv-fonct.min.css
+* sass/pages/_reserv-fonct.scss
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

@@ -790,15 +790,11 @@ footer .listes_elem_lien_lg_nom {
   border-bottom-left-radius: 10px;
   margin: 8px 0px 8px 0px;
   padding-right: 20px;
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-color: white;
 }
 .menu_serv_liste_elem:hover {
   cursor: pointer;
-}
-.menu_serv_liste_elemcontrol {
-  overflow: visible;
-  background-color: red;
 }
 .menu_serv_liste_elem_descr {
   min-width: 100%;
@@ -822,9 +818,9 @@ footer .listes_elem_lien_lg_nom {
   margin: 0px 0px 0px 10px;
 }
 .menu_serv_liste_elem_prix {
+  position: relative;
   font-size: 15px;
-  margin-left: -25px;
-  margin-right: -120px;
+  right: 25px;
   padding-top: 25px;
   transition: all 600ms;
 }

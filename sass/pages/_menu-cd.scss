@@ -123,17 +123,12 @@
                 border-bottom-left-radius: 10px;
                 margin: 8px 0px 8px 0px;
                 padding-right: 20px;
-                overflow: hidden;
+                /*overflow: hidden;*/
                 background-color: white;
 
                 &:hover {
 
                     cursor: pointer;
-                }
-
-                &control {
-                    overflow: visible;
-                    background-color: red;
                 }
 
                 &_descr {
@@ -164,9 +159,9 @@
                 }
 
                 &_prix {
+                    position: relative;
                     font-size: 15px;
-                    margin-left: -25px;
-                    margin-right: -120px;
+                    right: 25px;
                     padding-top: 25px;
                     transition: all 600ms;
 
