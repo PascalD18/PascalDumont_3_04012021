@@ -1,0 +1,23 @@
+-------------------- Auto-Git Log --------------------
+		Fri Feb 04 2022 13:44:13 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* public/css/style.css
+* public/css/style.css.map
+* sass/pages/_menu-cd.css
+* sass/pages/_menu-cd.min.css
+* sass/pages/_menu-cd.scss
+* sass/utils/_animations.css
+* sass/utils/_animations.min.css
+* sass/utils/_animations.scss
+
+
+Created files:
+* .autogit/logs/log-4-1-2022-0-29-54.txt
+
+
+Deleted files:
+
+
+Renamed files:
