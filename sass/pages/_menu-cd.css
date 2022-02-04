@@ -198,18 +198,14 @@
 }
 
 .menu_serv_liste_elem:hover .menu_serv_liste_elem_prix {
-  transform: translate(-60px);
+  animation: glissement-cochage 300ms linear 0ms forwards;
 }
 
 .menu_serv_liste_elem:hover .menu_serv_liste_elem_select {
-  transform: translate(-60px);
+  -webkit-animation: glissement-cochage 300ms linear 0ms forwards 1 normal;
+  animation: glissement-cochage 300ms linear 0ms forwards 1 normal;
 }
 
-/*
-.menu_serv_liste_elem:hover .menu_serv_liste_elem_select {
-    -webkit-animation: glissement-cochage 300ms linear 0ms forwards 1 normal;
-    animation: glissement-cochage 300ms linear 0ms forwards 1 normal;
-}*/
 .menu_serv_liste_elem:hover .menu_serv_liste_elem_select_coche {
   -webkit-animation: rotation 300ms linear 0ms forwards 1 normal;
   animation: rotation 300ms linear 0ms forwards 1 normal;
