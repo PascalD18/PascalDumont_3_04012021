@@ -48,20 +48,12 @@
 /*---------------------------------------------------------------------------------------------------------------------*/
 /*- MENUS -------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------------*/
-@-webkit-keyframes glissement-cochage {
-  0% {
-    transform: translate(0);
-  }
-  100% {
-    transform: translate(-70px);
-  }
-}
 @keyframes glissement-cochage {
   0% {
     transform: translate(0);
   }
   100% {
-    transform: translate(-70px);
+    transform: translate(-60px);
   }
 }
 @-webkit-keyframes rotation {
@@ -820,7 +812,6 @@ footer .listes_elem_lien_lg_nom {
 .menu_serv_liste_elem_prix {
   position: relative;
   font-size: 15px;
-  margin-right: -120px;
   padding-top: 25px;
   right: 20px;
 }
@@ -830,8 +821,8 @@ footer .listes_elem_lien_lg_nom {
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 60px;
-  right: -125px;
+  width: 100%;
+  margin-right: -82px;
   background: #99E2D0;
 }
 .menu_serv_liste_elem_select_coche {
@@ -852,6 +843,24 @@ footer .listes_elem_lien_lg_nom {
 .menu_desserts {
   -webkit-animation: app_prog 800ms linear 1600ms forwards 1 normal;
   animation: app_prog 800ms linear 1600ms forwards 1 normal;
+}
+
+.menu_serv_liste_elem:hover .menu_serv_liste_elem_prix {
+  transform: translate(-60px);
+}
+
+.menu_serv_liste_elem:hover .menu_serv_liste_elem_select {
+  transform: translate(-60px);
+}
+
+/*
+.menu_serv_liste_elem:hover .menu_serv_liste_elem_select {
+    -webkit-animation: glissement-cochage 300ms linear 0ms forwards 1 normal;
+    animation: glissement-cochage 300ms linear 0ms forwards 1 normal;
+}*/
+.menu_serv_liste_elem:hover .menu_serv_liste_elem_select_coche {
+  -webkit-animation: rotation 300ms linear 0ms forwards 1 normal;
+  animation: rotation 300ms linear 0ms forwards 1 normal;
 }
 
 .cd {
@@ -888,20 +897,6 @@ footer .listes_elem_lien_lg_nom {
   font-family: roboto;
   font-size: 16px;
   cursor: pointer;
-}
-
-.menu_serv_liste_elem:hover .menu_serv_liste_elem_prix {
-  transform: translate(-60px);
-}
-
-.menu_serv_liste_elem:hover .menu_serv_liste_elem_select {
-  -webkit-animation: glissement-cochage 300ms linear 0ms forwards 1 normal;
-  animation: glissement-cochage 300ms linear 0ms forwards 1 normal;
-}
-
-.menu_serv_liste_elem:hover .menu_serv_liste_elem_select_coche {
-  -webkit-animation: rotation 300ms linear 0ms forwards 1 normal;
-  animation: rotation 300ms linear 0ms forwards 1 normal;
 }
 
 /* --- PARAMETRAGE SUIVANT ECRANS --- */
