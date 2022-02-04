@@ -850,13 +850,13 @@ footer .listes_elem_lien_lg_nom {
 }
 
 .menu_serv_liste_elem:hover .menu_serv_liste_elem_select {
-  -webkit-animation: glissement-cochage 300ms linear 0ms forwards 1 normal;
-  animation: glissement-cochage 300ms linear 0ms forwards 1 normal;
+  -webkit-animation: glissement-cochage 300ms linear 0ms forwards;
+  animation: glissement-cochage 300ms linear 0ms forwards;
 }
 
 .menu_serv_liste_elem:hover .menu_serv_liste_elem_select_coche {
-  -webkit-animation: rotation 300ms linear 0ms forwards 1 normal;
-  animation: rotation 300ms linear 0ms forwards 1 normal;
+  -webkit-animation: rotation 300ms linear 0ms forwards;
+  animation: rotation 300ms linear 0ms forwards;
 }
 
 .cd {
