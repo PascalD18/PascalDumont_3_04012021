@@ -160,6 +160,7 @@
   position: relative;
   font-size: 15px;
   margin: initial;
+  width: 0%;
   padding-top: 25px;
   right: 20px;
 }
@@ -171,7 +172,8 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  margin-right: -82px;
+  margin-right: -60px;
+  right: -20px;
   background: #99E2D0;
 }
 
@@ -181,11 +183,6 @@
   background-clip: text;
   color: white;
   background-color: #57a52a;
-}
-
-.menu_serv_liste_elem_test {
-  width: 100%;
-  background: red;
 }
 
 .menu_entrées {

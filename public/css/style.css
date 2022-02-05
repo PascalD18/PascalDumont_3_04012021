@@ -813,6 +813,7 @@ footer .listes_elem_lien_lg_nom {
   position: relative;
   font-size: 15px;
   margin: initial;
+  width: 0%;
   padding-top: 25px;
   right: 20px;
 }
@@ -823,7 +824,8 @@ footer .listes_elem_lien_lg_nom {
   align-items: center;
   height: 100%;
   width: 100%;
-  margin-right: -82px;
+  margin-right: -60px;
+  right: -20px;
   background: #99E2D0;
 }
 .menu_serv_liste_elem_select_coche {
@@ -832,10 +834,6 @@ footer .listes_elem_lien_lg_nom {
   background-clip: text;
   color: white;
   background-color: #57a52a;
-}
-.menu_serv_liste_elem_test {
-  width: 100%;
-  background: red;
 }
 .menu_entrées {
   -webkit-animation: app_prog 800ms linear 0ms forwards 1 normal;
