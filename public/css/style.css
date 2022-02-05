@@ -812,6 +812,7 @@ footer .listes_elem_lien_lg_nom {
 .menu_serv_liste_elem_prix {
   position: relative;
   font-size: 15px;
+  margin: initial;
   padding-top: 25px;
   right: 20px;
 }
