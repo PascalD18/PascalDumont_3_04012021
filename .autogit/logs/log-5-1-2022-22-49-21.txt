@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Sat Feb 05 2022 22:49:21 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* public/css/style.css
+* public/css/style.css.map
+* resto2.html
+* sass/pages/_menu-cd.scss
+
+
+Created files:
+* .autogit/logs/log-5-1-2022-22-19-4.txt
+
+
+Deleted files:
+
+
+Renamed files:
