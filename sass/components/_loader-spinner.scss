@@ -16,10 +16,12 @@
         height: 350px;
         width: 350px;
     }
+
     &_quart-spin {
         position: relative;
         border-radius: 275px;
-        border: 6px solid rgba(148, 86, 221, 0.4); /* idem #9356dc semi-opaque*/
+        border: 6px solid rgba(148, 86, 221, 0.4);
+        /* idem #9356dc semi-opaque*/
         background-color: $color-primary;
 
         &:after {
@@ -36,41 +38,45 @@
             animation: rotation-spin 3s linear infinite;
         }
     }
+
     &_bouche-o {
         position: absolute;
-        top:260px;
+        top: 260px;
         height: 200px;
         width: 200px;
-        -webkit-animation: diction 3s cubic-bezier(.29,.49,.89,.32);
-        animation: diction 3s cubic-bezier(.29,.49,.89,.32);
+        -webkit-animation: diction 3s cubic-bezier(.29, .49, .89, .32);
+        animation: diction 3s cubic-bezier(.29, .49, .89, .32);
 
     }
-    &_syllabe1{
+
+    &_syllabe1 {
         position: absolute;
-        top:330px;
-        right:48%;
+        top: 330px;
+        right: 48%;
         text-align: center;
         opacity: 0;
-        -webkit-animation: grossissement-syllabe 600ms linear 250ms ;
-                animation: grossissement-syllabe 600ms linear 250ms ;
+        -webkit-animation: grossissement-syllabe 600ms linear 250ms;
+        animation: grossissement-syllabe 600ms linear 250ms;
     }
-    &_syllabe2{
+
+    &_syllabe2 {
         position: absolute;
-        top:330px;
-        right:48%;
+        top: 330px;
+        right: 48%;
         text-align: center;
         opacity: 0;
-        -webkit-animation: grossissement-syllabe 800ms linear 600ms ;
-                animation: grossissement-syllabe 800ms linear 600ms ;
+        -webkit-animation: grossissement-syllabe 800ms linear 600ms;
+        animation: grossissement-syllabe 800ms linear 600ms;
     }
-    &_syllabe3{
+
+    &_syllabe3 {
         position: absolute;
-        top:330px;
-        right:47%;
+        top: 330px;
+        right: 47%;
         text-align: center;
         opacity: 0;
-        -webkit-animation: grossissement-syllabe 1600ms linear 1400ms ;
-                animation: grossissement-syllabe 1600ms linear 1400ms ;
+        -webkit-animation: grossissement-syllabe 1600ms linear 1400ms;
+        animation: grossissement-syllabe 1600ms linear 1400ms;
     }
 
 }

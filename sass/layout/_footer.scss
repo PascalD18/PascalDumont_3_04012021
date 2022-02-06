@@ -11,13 +11,14 @@ footer {
     margin: 0px;
     padding-bottom: 20px;
     background-color: #353535;
-}    
-    footer .logo{
-        font-family: 'Shrikhand';
-        padding-left: 20px;
-        margin: 20px 0px 5px 0px;
-        
-    }
+}
+
+footer .logo {
+    font-family: 'Shrikhand';
+    padding-left: 20px;
+    margin: 20px 0px 5px 0px;
+
+}
 
 
 footer .listes {
@@ -63,28 +64,31 @@ footer .listes {
         }
     }
 }
+
 /*---------------------------------------------------------------------------------------------------------------------*/
 /*------------------------- FOOTER -> PARAMETRAGE SUIVANT ECRAN -------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------------*/
- /*----------- MOBILE --------*/
- @media screen and (max-width: 767px) {
-     footer .logo {
-         font-size: 18px;
-     }
+/*----------- MOBILE --------*/
+@media screen and (max-width: 767px) {
+    footer .logo {
+        font-size: 18px;
+    }
 
-     footer .listes_elem {
-         width: 100%;
+    footer .listes_elem {
+        width: 100%;
 
-         &_lien_lg_i {
-             font-size: 12px;
-         }
+        &_lien_lg_i {
+            font-size: 12px;
+        }
 
-         &_nom-i, &_nom {
-             font-size: 16px;
-         }
-     }
+        &_nom-i,
+        &_nom {
+            font-size: 16px;
+        }
+    }
 
- }
+}
+
 /*-----------TABLETTE--------*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
     footer .logo {
@@ -99,7 +103,8 @@ footer .listes {
                 font-size: 15px;
             }
 
-            &_nom-i, &_nom {
+            &_nom-i,
+            &_nom {
                 font-size: 18px;
             }
         }
@@ -109,23 +114,24 @@ footer .listes {
 
 /*-----------DESKTOP--------*/
 @media screen and (min-width: 992px) {
-   footer .logo {
-       font-size: 22px;
-   }
+    footer .logo {
+        font-size: 22px;
+    }
 
-   footer .listes_elem {
-       flex-direction: row;
-       justify-content: space-around;
-       width: 50%;
+    footer .listes_elem {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 50%;
 
-       &_lien_lg {
-           &_i {
-               font-size: 18px;
-           }
+        &_lien_lg {
+            &_i {
+                font-size: 18px;
+            }
 
-           &_nom-i, &_nom {
-               font-size: 20px;
-           }
-       }
-   }
+            &_nom-i,
+            &_nom {
+                font-size: 20px;
+            }
+        }
+    }
 }

@@ -175,7 +175,7 @@
                     justify-content: center;
                     align-items: center;
                     height: 100%;
-                    width:  100%;
+                    width: 100%;
                     margin-right: -60px;
                     right: -20px;
                     background: #99E2D0;
@@ -213,10 +213,12 @@
 .menu_serv_liste_elem:hover .menu_serv_liste_elem_prix {
     animation: glissement-cochage 300ms linear 0ms forwards;
 }
+
 .menu_serv_liste_elem:hover .menu_serv_liste_elem_select {
     -webkit-animation: glissement-cochage 300ms linear 0ms forwards;
     animation: glissement-cochage 300ms linear 0ms forwards;
 }
+
 .menu_serv_liste_elem:hover .menu_serv_liste_elem_select_coche {
     -webkit-animation: rotation 300ms linear 0ms forwards;
     animation: rotation 300ms linear 0ms forwards;
