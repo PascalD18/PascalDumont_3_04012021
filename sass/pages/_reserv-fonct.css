@@ -192,7 +192,6 @@
   }
   .fonct-restos {
     flex-direction: row;
-    flex-wrap: wrap;
   }
   .fonct-restos_fonct {
     width: 42%;
